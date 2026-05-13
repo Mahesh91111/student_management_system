@@ -556,6 +556,6 @@ class StudentManagementSystem:
 # MAIN
 root = tk.Tk()
 
-obj = StudentManagementSystem(root)
+obj = StudentManagementSystem(root) ## student
 
 root.mainloop()## Taks complete
