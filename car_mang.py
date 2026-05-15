@@ -147,7 +147,7 @@ class CarRental:
             database="car"
         )
 
-        self.cur = self.con.cursor()
+        self.cur = self.con.cursor()#
 
 
     def create_card(self, parent, title, column):
