@@ -471,7 +471,7 @@ class Employee:
         for idx, (_, k) in enumerate(data):
             self.table.move(k, "", idx)
             tag = "odd" if idx % 2 else "even"
-            self.table.item(k, tags=(tag,))
+            self.table.item(k, tags=(tag,)) ##tag
 #  ENTRY POINT
 if __name__ == "__main__":
     root = tk.Tk()
